@@ -34,7 +34,7 @@ public class CalculatorTest {
 		assertEquals(7, result);
 	}
 
-	@Test (groups = {"testEntityKey:QME-TC-2"})
+	@Test (groups = {"testEntityKey:QME-TC-3"})
 
 	public void testDivison99() {
 		try {
