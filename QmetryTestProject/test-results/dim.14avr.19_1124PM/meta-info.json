@@ -1,0 +1,13 @@
+{
+  "name": "TestNGmavenexemple.CalculatorTest",
+  "status": "pass",
+  "tests": [
+    "Commandlinetest"
+  ],
+  "total": 2,
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1555280649416,
+  "endTime": 1555280649596
+}
