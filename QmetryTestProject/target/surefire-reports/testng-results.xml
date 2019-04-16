@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
@@ -8,7 +8,7 @@
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>expected:<8> but was:<5></div></div>]]>
     </line>
     <line>
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
@@ -17,7 +17,7 @@
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-04-16T12:52:05Z" name="Surefire suite" finished-at="2019-04-16T12:52:05Z" duration-ms="172">
+  <suite started-at="2019-04-16T12:56:00Z" name="Surefire suite" finished-at="2019-04-16T12:56:00Z" duration-ms="181">
     <groups>
       <group name="testEntityKey:QME-TC-3">
         <method signature="CalculatorTest.testDivison99()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" name="testDivison99" class="TestNGmavenexemple.CalculatorTest"/>
@@ -26,37 +26,81 @@
         <method signature="CalculatorTest.testSum99()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" name="testSum99" class="TestNGmavenexemple.CalculatorTest"/>
       </group> <!-- testEntityKey:QME-TC-1 -->
     </groups>
-    <test started-at="2019-04-16T12:52:05Z" name="Surefire test" finished-at="2019-04-16T12:52:05Z" duration-ms="172">
+    <test started-at="2019-04-16T12:56:00Z" name="Surefire test" finished-at="2019-04-16T12:56:00Z" duration-ms="181">
       <class name="TestNGmavenexemple.CalculatorTest">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:52:05Z" name="beforeEachTest" finished-at="2019-04-16T14:52:05Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:56:00Z" name="beforeEachTest" finished-at="2019-04-16T14:56:00Z" duration-ms="16" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method is-config="true" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:52:05Z" name="initCalculator" finished-at="2019-04-16T14:52:05Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:56:00Z" name="initCalculator" finished-at="2019-04-16T14:56:00Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- initCalculator -->
-        <test-method signature="testDivison99()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:52:05Z" name="testDivison99" finished-at="2019-04-16T14:52:05Z" duration-ms="3" status="PASS">
+        <test-method signature="testDivison99()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:56:00Z" name="testDivison99" finished-at="2019-04-16T14:56:00Z" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<8> but was:<5>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<8> but was:<5>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at TestNGmavenexemple.CalculatorTest.testDivison99(CalculatorTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>expected:<8> but was:<5></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDivison99 -->
-        <test-method signature="testSum99()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:52:05Z" name="testSum99" finished-at="2019-04-16T14:52:05Z" duration-ms="0" status="PASS">
+        <test-method signature="testSum99()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:56:00Z" name="testSum99" finished-at="2019-04-16T14:56:00Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSum99 -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:52:05Z" name="afterEachTest" finished-at="2019-04-16T14:52:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1356d4d4]" started-at="2019-04-16T14:56:00Z" name="afterEachTest" finished-at="2019-04-16T14:56:00Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>

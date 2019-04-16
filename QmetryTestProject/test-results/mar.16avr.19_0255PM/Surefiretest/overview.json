@@ -1,0 +1,31 @@
+{
+  "total": 2,
+  "pass": 1,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "TestNGmavenexemple.CalculatorTest"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14",
+      "qaf-Version": "2.1"
+    },
+    "run-parameters": {},
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "11.0.2",
+      "os.arch": "amd64",
+      "host": "DEV20",
+      "os.name": "Windows 10",
+      "user.name": "Leila.Chamtouri",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1555419322027,
+  "endTime": 1555419322172
+}

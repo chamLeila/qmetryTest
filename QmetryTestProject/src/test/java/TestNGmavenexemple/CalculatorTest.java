@@ -40,7 +40,7 @@ public class CalculatorTest {
 		try {
 			int result = calculator.divison(10, 2);
 
-			assertEquals(5, result);
+			assertEquals(8, result);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
