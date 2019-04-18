@@ -1,6 +1,21 @@
 {
   "reports": [
     {
+      "name": "Surefire suite",
+      "dir": "test-results/jeu.18avr.19_0312PM",
+      "startTime": 1555593121108
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/jeu.18avr.19_0311PM",
+      "startTime": 1555593115377
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/jeu.18avr.19_0311PM",
+      "startTime": 1555593094974
+    },
+    {
       "name": "Default suite",
       "dir": "test-results/jeu.18avr.19_0254PM",
       "startTime": 1555592042085

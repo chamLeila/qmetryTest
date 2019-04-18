@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.614 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.686 s <<< FAILURE! - in TestSuite
+testSum(TestNGmavenexemple.CalculatorTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<9> but was:<7>
+	at TestNGmavenexemple.CalculatorTest.testSum(CalculatorTest.java:36)
+

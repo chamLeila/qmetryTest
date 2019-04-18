@@ -29,14 +29,14 @@ public class CalculatorTest {
 	}
 	
 	@javaScriptEnabled(value = "ok")
-	@Test (groups = {"testEntityKey:QME-TC-1"})
+	@Test (groups = {"testEntityKey:QME-TC-6"})
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(9, result);
 	}
 
-	@Test (groups = {"testEntityKey:QME-TC-3"})
+	@Test (groups = {"testEntityKey:QME-TC-7"})
 	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
