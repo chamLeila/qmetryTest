@@ -3,20 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="PrimeNumberChecker.TestngParameters">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- PrimeNumberChecker.TestngParameters -->
-      <class name="ParamTestWithDataProvider1.DataProviderTest">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- ParamTestWithDataProvider1.DataProviderTest -->
       <class name="TestNGmavenexemple.CalculatorTest">
         <methods>
           <include name="initCalculator"/>
           <include name="beforeEachTest"/>
+          <include name="testSum"/>
           <include name="afterEachTest"/>
         </methods>
       </class> <!-- TestNGmavenexemple.CalculatorTest -->
