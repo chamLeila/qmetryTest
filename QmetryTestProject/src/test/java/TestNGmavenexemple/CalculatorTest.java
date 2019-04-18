@@ -6,6 +6,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.qmetry.qaf.automation.step.QAFTestStep;
+
 
 
 public class CalculatorTest {
@@ -26,21 +28,20 @@ public class CalculatorTest {
 		System.out.println("This is exceuted after each Test");
 	}
 	
-	
+	@javaScriptEnabled(value = "ok")
 	@Test (groups = {"testEntityKey:QME-TC-1"})
-	public void testSum99() {
+	public void testSum() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
 	@Test (groups = {"testEntityKey:QME-TC-3"})
-
-	public void testDivison99() {
+	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
 
-			assertEquals(8, result);
+			assertEquals(5, result);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}

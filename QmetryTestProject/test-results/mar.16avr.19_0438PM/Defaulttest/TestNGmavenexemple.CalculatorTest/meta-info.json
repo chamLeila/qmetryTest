@@ -1,0 +1,200 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeEachTest",
+        "name": "beforeEachTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425497569,
+      "duration": 31,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "InitCalculator",
+        "name": "initCalculator",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425497638,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestAdd",
+        "name": "testAdd",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425497653,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestDivison99",
+        "name": "testDivison99",
+        "groups": [
+          "testEntityKey:QME-TC-3"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555425497685,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestSum99",
+        "name": "testSum99",
+        "groups": [
+          "testEntityKey:QME-TC-1"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555425497716,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AfterEachTest",
+        "name": "afterEachTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425497738,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeEachTestjDONtKRWBe",
+        "name": "beforeEachTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425531262,
+      "duration": 6,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "InitCalculatoruMniQOEcSn",
+        "name": "initCalculator",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425531299,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestAddwrvXsmdraC",
+        "name": "testAdd",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425531315,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestDivison99eDePpJsRTH",
+        "name": "testDivison99",
+        "groups": [
+          "testEntityKey:QME-TC-3"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555425531346,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestSum99HcipNeTevT",
+        "name": "testSum99",
+        "groups": [
+          "testEntityKey:QME-TC-1"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555425531369,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AfterEachTestlxQPOwbMUW",
+        "name": "afterEachTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555425531431,
+      "duration": 16,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

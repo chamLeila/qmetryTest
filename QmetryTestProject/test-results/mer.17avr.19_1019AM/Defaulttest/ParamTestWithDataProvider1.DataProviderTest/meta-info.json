@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestIllegalArgumentException",
+        "name": "testIllegalArgumentException",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1555489177441,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

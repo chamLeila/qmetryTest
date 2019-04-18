@@ -1,0 +1,13 @@
+{
+  "name": "Surefire suite",
+  "status": "fail",
+  "tests": [
+    "Surefiretest"
+  ],
+  "total": 3,
+  "pass": 1,
+  "fail": 2,
+  "skip": 0,
+  "startTime": 1555508093692,
+  "endTime": 1555508093878
+}

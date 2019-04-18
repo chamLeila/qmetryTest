@@ -20,7 +20,7 @@
      <groupId>org.testng</groupId>
      <artifactId>testng</artifactId>
      <version>6.8</version>
-     <scope>Tests</scope>
+
   </dependency>
  
 <dependency>
@@ -32,6 +32,7 @@
 
 	<build>
 		<plugins>
+		
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -41,6 +42,20 @@
 					<useSystemClassLoader>true</useSystemClassLoader>
 				</configuration>
 			</plugin>
+			
+				<plugin>
+				<groupId>com.qmetry</groupId>
+				<artifactId>qmetry-test-management-maven-plugin</artifactId>
+				<configuration>
+					<url>https://testmanagement.qmetry.com/</url>
+					<apikey>s88uU3TgoMQ2TCRzek2poTvnvXMv0EzTmXTc2GVX</apikey>
+					<filepath>\target\surefire-reports\testng-results.xml</filepath>
+					<format>testng/xml</format>
+					<project>QME</project>
+				<automationHierarchy>1</automationHierarchy>
+				</configuration>
+			</plugin>
+		
 		</plugins>
 	</build>
 </project>

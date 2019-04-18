@@ -3,10 +3,14 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
+      <class name="ParamTestWithDataProvider1.DataProviderTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- ParamTestWithDataProvider1.DataProviderTest -->
       <class name="TestNGmavenexemple.CalculatorTest">
         <methods>
           <include name="initCalculator"/>
-          <include name="testDivison99"/>
           <include name="beforeEachTest"/>
           <include name="afterEachTest"/>
         </methods>
