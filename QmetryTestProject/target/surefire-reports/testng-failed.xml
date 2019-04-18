@@ -7,7 +7,6 @@
         <methods>
           <include name="initCalculator"/>
           <include name="beforeEachTest"/>
-          <include name="testSum"/>
           <include name="afterEachTest"/>
         </methods>
       </class> <!-- TestNGmavenexemple.CalculatorTest -->

@@ -33,7 +33,7 @@ public class CalculatorTest {
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 
-		assertEquals(9, result);
+		assertEquals(7, result);
 	}
 
 	@Test (groups = {"testEntityKey:QME-TC-7"})
