@@ -36,7 +36,7 @@ public class CalculatorTest {
 		assertEquals(7, result);
 	}
 
-	@Test (groups = {"testEntityKey:QME-TC-8"})
+	@Test (groups = {"testEntityKey:QME-TC-8", "requirementEntityKey: QME-RQ-1"})
 	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);

@@ -2,6 +2,21 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/ven.19avr.19_0330PM",
+      "startTime": 1555680639692
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_0330PM",
+      "startTime": 1555680631429
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/ven.19avr.19_0329PM",
+      "startTime": 1555680541820
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/ven.19avr.19_1220PM",
       "startTime": 1555669226674
     },

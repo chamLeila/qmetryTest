@@ -3,11 +3,6 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="ParamTestWithDataProvider1.DataProviderTest">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- ParamTestWithDataProvider1.DataProviderTest -->
       <class name="TestNGmavenexemple.CalculatorTest">
         <methods>
           <include name="initCalculator"/>
@@ -21,6 +16,11 @@
           <include name="newUserAuthenticationTest"/>
         </methods>
       </class> <!-- TestNGmavenexemple.TestAuthentication -->
+      <class name="ParamTestWithDataProvider1.DataProviderTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- ParamTestWithDataProvider1.DataProviderTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
