@@ -8,9 +8,9 @@ public class TestAuthentication {
 
     @Test (groups = { "Sniff", "Regression" })
     public void validAuthenticationTest(){
-    	if (System.getProperty("environment")=="emna") {
-        System.out.println(" Sniff + Regression" + System.getProperty("environment"));
-    	}
+    	
+    	System.setProperty("environment", "aymen");
+    	System.out.println(" Sniff + Regression" + System.getProperty("environment"));
     }
 
     @Test (groups = { "Regression" },parameters = {"environment"})
