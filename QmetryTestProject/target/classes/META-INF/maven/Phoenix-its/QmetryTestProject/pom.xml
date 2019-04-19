@@ -40,6 +40,10 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<useSystemClassLoader>true</useSystemClassLoader>
+					<systemPropertyVariables>
+                        <environment>leila</environment>
+                    </systemPropertyVariables>
+                     
 				</configuration>
 			</plugin>
 			

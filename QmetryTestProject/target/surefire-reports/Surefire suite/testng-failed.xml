@@ -10,6 +10,12 @@
           <include name="afterEachTest"/>
         </methods>
       </class> <!-- TestNGmavenexemple.CalculatorTest -->
+      <class name="TestNGmavenexemple.TestAuthentication">
+        <methods>
+          <include name="failedAuthenticationTest"/>
+          <include name="newUserAuthenticationTest"/>
+        </methods>
+      </class> <!-- TestNGmavenexemple.TestAuthentication -->
       <class name="ParamTestWithDataProvider1.DataProviderTest">
         <methods>
           <include name="test"/>

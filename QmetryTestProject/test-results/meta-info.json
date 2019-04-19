@@ -2,6 +2,51 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/ven.19avr.19_1137AM",
+      "startTime": 1555666621482
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/ven.19avr.19_1133AM",
+      "startTime": 1555666430654
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_1133AM",
+      "startTime": 1555666421170
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/ven.19avr.19_1132AM",
+      "startTime": 1555666343284
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_1132AM",
+      "startTime": 1555666332995
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_1112AM",
+      "startTime": 1555665152748
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_1112AM",
+      "startTime": 1555665141481
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_1109AM",
+      "startTime": 1555664964160
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/ven.19avr.19_1108AM",
+      "startTime": 1555664890344
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/ven.19avr.19_0957AM",
       "startTime": 1555660640008
     },

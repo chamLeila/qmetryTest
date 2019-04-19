@@ -1,0 +1,86 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeEachTest",
+        "name": "beforeEachTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555666421270,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "InitCalculator",
+        "name": "initCalculator",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555666421286,
+      "duration": 15,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestDivison",
+        "name": "testDivison",
+        "groups": [
+          "testEntityKey:QME-TC-8"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555666421317,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestSum",
+        "name": "testSum",
+        "groups": [
+          "testEntityKey:QME-TC-6"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555666421317,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AfterEachTest",
+        "name": "afterEachTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555666421333,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
