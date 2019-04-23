@@ -1,6 +1,41 @@
 {
   "reports": [
     {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_1116AM",
+      "startTime": 1556010960977
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0958AM",
+      "startTime": 1556006338971
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0958AM",
+      "startTime": 1556006323615
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0954AM",
+      "startTime": 1556006091638
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0954AM",
+      "startTime": 1556006058207
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0948AM",
+      "startTime": 1556005723596
+    },
+    {
+      "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0946AM",
+      "startTime": 1556005591206
+    },
+    {
       "name": "Default suite",
       "dir": "test-results/lun.22avr.19_0453PM",
       "startTime": 1555944796269
