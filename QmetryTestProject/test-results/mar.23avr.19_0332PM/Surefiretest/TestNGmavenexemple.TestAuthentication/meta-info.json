@@ -1,0 +1,40 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "ValidAuthenticationTest",
+        "name": "validAuthenticationTest",
+        "groups": [
+          "Regression",
+          "Sniff"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1556026351335,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "ValidAuthenticationTestpdIekrTUOa",
+        "name": "validAuthenticationTest",
+        "groups": [
+          "Regression",
+          "Sniff"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1556026359192,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

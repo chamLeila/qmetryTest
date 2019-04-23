@@ -29,7 +29,7 @@
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-04-23T13:30:34Z" name="Surefire suite" finished-at="2019-04-23T13:30:34Z" duration-ms="165">
+  <suite started-at="2019-04-23T13:32:39Z" name="Surefire suite" finished-at="2019-04-23T13:32:39Z" duration-ms="145">
     <groups>
       <group name="testEntityKey:QME-TC-6">
         <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
@@ -46,9 +46,9 @@
         <method signature="TestAuthentication.validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" name="validAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
       </group> <!-- Sniff -->
     </groups>
-    <test started-at="2019-04-23T13:30:34Z" name="Surefire test" finished-at="2019-04-23T13:30:34Z" duration-ms="165">
+    <test started-at="2019-04-23T13:32:39Z" name="Surefire test" finished-at="2019-04-23T13:32:39Z" duration-ms="145">
       <class name="ParamTestWithDataProvider1.DataProviderTest">
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:ParamTestWithDataProvider1.DataProviderTest@3246fb96]" started-at="2019-04-23T15:30:34Z" name="test" description="{&quot;dataProvider&quot;:&quot;Authentication&quot;}" data-provider="Authentication" finished-at="2019-04-23T15:30:34Z" duration-ms="0" status="FAIL">
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:ParamTestWithDataProvider1.DataProviderTest@3246fb96]" started-at="2019-04-23T15:32:39Z" name="test" description="{&quot;dataProvider&quot;:&quot;Authentication&quot;}" data-provider="Authentication" finished-at="2019-04-23T15:32:39Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -94,7 +94,7 @@
         </test-method> <!-- test -->
       </class> <!-- ParamTestWithDataProvider1.DataProviderTest -->
       <class name="TestNGmavenexemple.TestAuthentication">
-        <test-method signature="failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:30:34Z" name="failedAuthenticationTest" finished-at="2019-04-23T15:30:34Z" duration-ms="0" status="FAIL">
+        <test-method signature="failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:32:39Z" name="failedAuthenticationTest" finished-at="2019-04-23T15:32:39Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -138,14 +138,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedAuthenticationTest -->
-        <test-method signature="validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:30:34Z" name="validAuthenticationTest" finished-at="2019-04-23T15:30:34Z" duration-ms="3" status="PASS">
+        <test-method signature="validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:32:39Z" name="validAuthenticationTest" finished-at="2019-04-23T15:32:39Z" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- validAuthenticationTest -->
-        <test-method signature="newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:30:34Z" name="newUserAuthenticationTest" finished-at="2019-04-23T15:30:34Z" duration-ms="0" status="FAIL">
+        <test-method signature="newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:32:39Z" name="newUserAuthenticationTest" finished-at="2019-04-23T15:32:39Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -191,35 +191,35 @@
         </test-method> <!-- newUserAuthenticationTest -->
       </class> <!-- TestNGmavenexemple.TestAuthentication -->
       <class name="TestNGmavenexemple.CalculatorTest">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:30:34Z" name="beforeEachTest" finished-at="2019-04-23T15:30:34Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:32:39Z" name="beforeEachTest" finished-at="2019-04-23T15:32:39Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method is-config="true" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:30:34Z" name="initCalculator" finished-at="2019-04-23T15:30:34Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:32:39Z" name="initCalculator" finished-at="2019-04-23T15:32:39Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- initCalculator -->
-        <test-method signature="testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:30:34Z" name="testDivison" finished-at="2019-04-23T15:30:34Z" duration-ms="2" status="PASS">
+        <test-method signature="testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:32:39Z" name="testDivison" finished-at="2019-04-23T15:32:39Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDivison -->
-        <test-method signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:30:34Z" name="testSum" finished-at="2019-04-23T15:30:34Z" duration-ms="0" status="PASS">
+        <test-method signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:32:39Z" name="testSum" finished-at="2019-04-23T15:32:39Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSum -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:30:34Z" name="afterEachTest" finished-at="2019-04-23T15:30:34Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:32:39Z" name="afterEachTest" finished-at="2019-04-23T15:32:39Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
