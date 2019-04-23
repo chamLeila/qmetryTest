@@ -14,14 +14,13 @@ public class TestAuthentication {
     	System.out.println(" testparam" + System.getProperty("testparam"));
     }
 
-    @Test (groups = { "Regression" },parameters = {"environment"})
-    public void failedAuthenticationTest(String environment){
-        System.out.println("Regression-"+environment);
+    @Test (groups = { "Regression" })
+    public void failedAuthenticationTest(){
+        System.out.println("Regression-");
     }
 
-    @Parameters("environment")
     @Test (groups = { "Sniff"})
-    public void newUserAuthenticationTest(String environment){
-        System.out.println("Sniff-"+environment);
+    public void newUserAuthenticationTest(){
+        System.out.println("Sniff-");
     }
 }

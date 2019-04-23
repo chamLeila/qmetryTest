@@ -1,0 +1,56 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "FailedAuthenticationTest",
+        "name": "failedAuthenticationTest",
+        "groups": [
+          "Regression"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1556029921737,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "NewUserAuthenticationTest",
+        "name": "newUserAuthenticationTest",
+        "groups": [
+          "Sniff"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1556029921768,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "ValidAuthenticationTest",
+        "name": "validAuthenticationTest",
+        "groups": [
+          "Regression",
+          "Sniff"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1556029921800,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
