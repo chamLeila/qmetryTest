@@ -11,6 +11,7 @@ public class TestAuthentication {
     	
 //    	System.setProperty("environment", "aymen");
     	System.out.println(" Sniff + Regression" + System.getProperty("environment"));
+    	System.out.println(" testparam" + System.getProperty("testparam"));
     }
 
     @Test (groups = { "Regression" },parameters = {"environment"})

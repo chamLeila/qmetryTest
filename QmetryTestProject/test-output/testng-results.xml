@@ -20,7 +20,7 @@
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-04-22T14:53:16Z" name="Default suite" finished-at="2019-04-22T14:53:16Z" duration-ms="62">
+  <suite started-at="2019-04-23T13:37:02Z" name="Default suite" finished-at="2019-04-23T13:37:02Z" duration-ms="58">
     <groups>
       <group name="Regression">
         <method signature="TestAuthentication.failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" name="failedAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
@@ -31,9 +31,9 @@
         <method signature="TestAuthentication.validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" name="validAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
       </group> <!-- Sniff -->
     </groups>
-    <test started-at="2019-04-22T14:53:16Z" name="Default test" finished-at="2019-04-22T14:53:16Z" duration-ms="62">
+    <test started-at="2019-04-23T13:37:02Z" name="Default test" finished-at="2019-04-23T13:37:02Z" duration-ms="58">
       <class name="TestNGmavenexemple.TestAuthentication">
-        <test-method signature="failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" started-at="2019-04-22T16:53:16Z" name="failedAuthenticationTest" finished-at="2019-04-22T16:53:16Z" duration-ms="0" status="FAIL">
+        <test-method signature="failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" started-at="2019-04-23T15:37:02Z" name="failedAuthenticationTest" finished-at="2019-04-23T15:37:02Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -72,17 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedAuthenticationTest -->
-        <test-method signature="validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" started-at="2019-04-22T16:53:16Z" name="validAuthenticationTest" finished-at="2019-04-22T16:53:16Z" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
-            </line>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validAuthenticationTest -->
-        <test-method signature="newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" started-at="2019-04-22T16:53:16Z" name="newUserAuthenticationTest" finished-at="2019-04-22T16:53:16Z" duration-ms="0" status="FAIL">
+        <test-method signature="newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" started-at="2019-04-23T15:37:02Z" name="newUserAuthenticationTest" finished-at="2019-04-23T15:37:02Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -121,6 +111,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newUserAuthenticationTest -->
+        <test-method signature="validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@3c7f66c4]" started-at="2019-04-23T15:37:02Z" name="validAuthenticationTest" finished-at="2019-04-23T15:37:02Z" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validAuthenticationTest -->
       </class> <!-- TestNGmavenexemple.TestAuthentication -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
