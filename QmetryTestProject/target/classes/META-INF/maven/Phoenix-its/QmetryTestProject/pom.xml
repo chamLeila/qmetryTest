@@ -58,7 +58,7 @@
 					<useSystemClassLoader>true</useSystemClassLoader>
 					
                      <systemPropertyVariables>
-                        <environment>${env.USER}</environment>
+                        <environment>leila</environment>
                     </systemPropertyVariables>
 				</configuration>
 			</plugin>
