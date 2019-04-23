@@ -29,26 +29,26 @@
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-04-23T10:06:12Z" name="Surefire suite" finished-at="2019-04-23T10:06:12Z" duration-ms="151">
+  <suite started-at="2019-04-23T13:27:28Z" name="Surefire suite" finished-at="2019-04-23T13:27:28Z" duration-ms="112">
     <groups>
       <group name="testEntityKey:QME-TC-6">
-        <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
+        <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
       </group> <!-- testEntityKey:QME-TC-6 -->
       <group name="testEntityKey:QME-TC-8">
-        <method signature="CalculatorTest.testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" name="testDivison" class="TestNGmavenexemple.CalculatorTest"/>
+        <method signature="CalculatorTest.testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" name="testDivison" class="TestNGmavenexemple.CalculatorTest"/>
       </group> <!-- testEntityKey:QME-TC-8 -->
       <group name="Regression">
-        <method signature="TestAuthentication.failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" name="failedAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
-        <method signature="TestAuthentication.validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" name="validAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
+        <method signature="TestAuthentication.failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" name="failedAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
+        <method signature="TestAuthentication.validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" name="validAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
       </group> <!-- Regression -->
       <group name="Sniff">
-        <method signature="TestAuthentication.newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" name="newUserAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
-        <method signature="TestAuthentication.validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" name="validAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
+        <method signature="TestAuthentication.newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" name="newUserAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
+        <method signature="TestAuthentication.validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" name="validAuthenticationTest" class="TestNGmavenexemple.TestAuthentication"/>
       </group> <!-- Sniff -->
     </groups>
-    <test started-at="2019-04-23T10:06:12Z" name="Surefire test" finished-at="2019-04-23T10:06:12Z" duration-ms="151">
+    <test started-at="2019-04-23T13:27:28Z" name="Surefire test" finished-at="2019-04-23T13:27:28Z" duration-ms="112">
       <class name="ParamTestWithDataProvider1.DataProviderTest">
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:ParamTestWithDataProvider1.DataProviderTest@68c72235]" started-at="2019-04-23T12:06:12Z" name="test" description="{&quot;dataProvider&quot;:&quot;Authentication&quot;}" data-provider="Authentication" finished-at="2019-04-23T12:06:12Z" duration-ms="0" status="FAIL">
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:ParamTestWithDataProvider1.DataProviderTest@3246fb96]" started-at="2019-04-23T15:27:28Z" name="test" description="{&quot;dataProvider&quot;:&quot;Authentication&quot;}" data-provider="Authentication" finished-at="2019-04-23T15:27:28Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -94,7 +94,7 @@
         </test-method> <!-- test -->
       </class> <!-- ParamTestWithDataProvider1.DataProviderTest -->
       <class name="TestNGmavenexemple.TestAuthentication">
-        <test-method signature="failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" started-at="2019-04-23T12:06:12Z" name="failedAuthenticationTest" finished-at="2019-04-23T12:06:12Z" duration-ms="0" status="FAIL">
+        <test-method signature="failedAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:27:28Z" name="failedAuthenticationTest" finished-at="2019-04-23T15:27:28Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -138,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedAuthenticationTest -->
-        <test-method signature="newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" started-at="2019-04-23T12:06:12Z" name="newUserAuthenticationTest" finished-at="2019-04-23T12:06:12Z" duration-ms="0" status="FAIL">
+        <test-method signature="newUserAuthenticationTest(java.lang.String)[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:27:28Z" name="newUserAuthenticationTest" finished-at="2019-04-23T15:27:28Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[wrong number of arguments]]>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newUserAuthenticationTest -->
-        <test-method signature="validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@6b8ca3c8]" started-at="2019-04-23T12:06:12Z" name="validAuthenticationTest" finished-at="2019-04-23T12:06:12Z" duration-ms="3" status="PASS">
+        <test-method signature="validAuthenticationTest()[pri:0, instance:TestNGmavenexemple.TestAuthentication@77eca502]" started-at="2019-04-23T15:27:28Z" name="validAuthenticationTest" finished-at="2019-04-23T15:27:28Z" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
@@ -191,35 +191,35 @@
         </test-method> <!-- validAuthenticationTest -->
       </class> <!-- TestNGmavenexemple.TestAuthentication -->
       <class name="TestNGmavenexemple.CalculatorTest">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" started-at="2019-04-23T12:06:12Z" name="beforeEachTest" finished-at="2019-04-23T12:06:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:27:28Z" name="beforeEachTest" finished-at="2019-04-23T15:27:28Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method is-config="true" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" started-at="2019-04-23T12:06:12Z" name="initCalculator" finished-at="2019-04-23T12:06:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:27:28Z" name="initCalculator" finished-at="2019-04-23T15:27:28Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- initCalculator -->
-        <test-method signature="testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" started-at="2019-04-23T12:06:12Z" name="testDivison" finished-at="2019-04-23T12:06:12Z" duration-ms="2" status="PASS">
+        <test-method signature="testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:27:28Z" name="testDivison" finished-at="2019-04-23T15:27:28Z" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDivison -->
-        <test-method signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" started-at="2019-04-23T12:06:12Z" name="testSum" finished-at="2019-04-23T12:06:12Z" duration-ms="1" status="PASS">
+        <test-method signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:27:28Z" name="testSum" finished-at="2019-04-23T15:27:28Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSum -->
-        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@1649b0e6]" started-at="2019-04-23T12:06:12Z" name="afterEachTest" finished-at="2019-04-23T12:06:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@3315d2d7]" started-at="2019-04-23T15:27:28Z" name="afterEachTest" finished-at="2019-04-23T15:27:28Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>

@@ -9,7 +9,7 @@ public class TestAuthentication {
     @Test (groups = { "Sniff", "Regression" })
     public void validAuthenticationTest(){
     	
-    	System.setProperty("environment", "aymen");
+//    	System.setProperty("environment", "aymen");
     	System.out.println(" Sniff + Regression" + System.getProperty("environment"));
     }
 

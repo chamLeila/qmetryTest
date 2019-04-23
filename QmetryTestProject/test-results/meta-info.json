@@ -2,6 +2,11 @@
   "reports": [
     {
       "name": "Surefire suite",
+      "dir": "test-results/mar.23avr.19_0327PM",
+      "startTime": 1556026048233
+    },
+    {
+      "name": "Surefire suite",
       "dir": "test-results/mar.23avr.19_1206PM",
       "startTime": 1556013972698
     },
